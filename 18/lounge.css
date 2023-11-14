@@ -52,16 +52,12 @@ border-top-right-radius: 2em;
 border-bottom-left-radius: 2em;
 }
 .elixirs {
-border-width: 20px;
-border-style: solid;
-border-color: #007e7e;
+border: 20px solid #007e7e;
 
 }
 .elixirs{
-padding-right: 20px;
-padding-bottom: 20px;
-padding-left: 20px;
-margin-left: 20px;
+padding: 0px 20px 20px 20px;
+margin:0px 0px 0px 20px;
 }
 .elixirs{
 background-image: url(images/cocktail.gif);
