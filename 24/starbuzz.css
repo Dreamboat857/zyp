@@ -76,3 +76,8 @@ a:visited {
 	background-color: #ccbb00;
   z-index: 1;
 }
+.main {
+	position: relative;
+	top:           0px;
+	left:        200px;
+}
