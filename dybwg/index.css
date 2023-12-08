@@ -1,2 +1,185 @@
-body{background-color: #1d1d1d;}
-.write{padding-left: 80px;padding-top: 20px;}
+.footer {
+  background-color: #000;
+}
+.footer .footer-main {
+  width: 100%;
+  background-color: #1d1d1d;
+}
+.footer .footer-main .connect {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 0;
+  border-bottom: 1px solid #333;
+}
+.footer .footer-main .connect .left {
+  width: 50%;
+}
+.footer .footer-main .connect .left p {
+  color: #fff;
+  font-weight: 600px;
+}
+.footer .footer-main .connect .left p:first-child {
+  font-size: 24px;
+}
+.footer .footer-main .connect .left p:last-child {
+  margin-top: 20px;
+}
+.footer .footer-main .connect .left p:last-child a {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: #000;
+  line-height: 50px;
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+  margin-right: 10px;
+}
+.footer .footer-main .connect .left p:last-child a:hover {
+  background-color: #fff;
+  color: #000;
+}
+.footer .footer-main .connect .right {
+  width: 40%;
+}
+.footer .footer-main .connect .right p {
+  color: #fff;
+  font-size: 14px;
+}
+.footer .footer-main .connect .right .input {
+  display: flex;
+  margin: 10px 0;
+}
+.footer .footer-main .connect .right .input input {
+  margin: 0;
+}
+.footer .footer-main .connect .right .input input:first-child {
+  background-color: #1d1d1d;
+  border: 1px solid #fff;
+  border-radius: 0;
+  color: #a5a5a5;
+  display: block;
+  line-height: inherit;
+  outline: 0;
+  padding: 10px 20px;
+  outline: none;
+  width: 80%;
+}
+.footer .footer-main .connect .right .input input:first-child:focus {
+  background-color: #fff;
+}
+.footer .footer-main .connect .right .input input:last-child {
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #fff;
+  color: #000;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 500;
+  line-height: inherit;
+  padding: 10px 20px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+.footer .footer-main .connect .right a {
+  float: right;
+  color: #fff;
+  font-size: 14px;
+}
+.footer .footer-main .connect .right a:hover strong {
+  border-bottom: 2px solid #fff;
+}
+.footer .footer-main .connect .right a span {
+  display: inline-block;
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  background-color: #fff;
+  color: #000;
+  margin-left: 10px;
+  line-height: 18px;
+  text-align: center;
+  font-size: 12px;
+}
+.footer .link {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 60px;
+  display: flex;
+}
+.footer .link .open {
+  width: 30%;
+}
+.footer .link .open dl {
+  width: 62%;
+  margin-bottom: 28px;
+}
+.footer .link .open dl dt {
+  color: #fff;
+  padding-bottom: 10px;
+}
+.footer .link .open dl dd {
+  padding-bottom: 10px;
+  color: #a5a5a5;
+}
+.footer .link .open dl dd a {
+  display: inline-block;
+  margin: 15px 0;
+  color: #a5a5a5;
+}
+.footer .link .open dl dd a:hover {
+  border-bottom: 2px solid #a5a5a5;
+}
+.footer .link .server {
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer .link .server dl {
+  width: 30%;
+  margin-right: 20px;
+}
+.footer .link .server dl dt {
+  padding-bottom: 10px;
+}
+.footer .link .server dl dt a {
+  color: #fff;
+}
+.footer .link .server dl dt a:hover {
+  border-bottom: 2px solid #fff;
+}
+.footer .link .server dl dd {
+  padding-bottom: 5px;
+}
+.footer .link .server dl dd a {
+  color: #a5a5a5;
+  cursor: pointer;
+}
+.footer .link .server dl dd a:hover {
+  border-bottom: 2px solid #a5a5a5;
+}
+.footer .setting {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+}
+.footer .setting ul {
+  display: flex;
+}
+.setting ul li a {
+  color: #fff;
+  font-size: 12px;
+  padding-right: 15px;
+} 
+.footer .setting ul li a:hover {
+  border-bottom: 2px solid #fff;
+}
+.footer .setting p {
+  font-size: 12px;
+  color: #fff;
+}
