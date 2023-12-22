@@ -192,12 +192,16 @@
 
 .block2{
   text-decoration: none;
+  display: flex;
+  margin-right: 5px;
 }
 
 .block3{
   transform: rotate(270deg);
   position: relative;
   display: flex;
+  float: right;
+  margin-right: 5px;
 }
 
 .block4{
